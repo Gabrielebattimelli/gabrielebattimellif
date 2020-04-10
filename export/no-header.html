@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Oswald:700" rel="stylesheet">
+</head>
+
+<body class="no-header-page">
+  <div class="wrapper">
+
+    <div class="page-content">
+      <div id="background">
+        <div id="gradient">
+          <div id="header">
+            <div class="container">
+              <div id="logo">{logo}</div>
+              <div id="nav-handle">
+                {minicart}
+                <div class="hamburger"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main">
+        {{#sections}}
+          <div class="container">{content}</div>
+        {{/sections}}
+      </div>
+      <div id="footer">{footer}</div>
+    </div>
+
+    <div class="dummy-nav">
+      {menu}
+    </div>
+
+    <div id="nav" class="nav">
+      <div class="nav-header">
+        <div class="hamburger wsite-button-highlight"><span></span></div>
+      </div>
+      <div class="w-navpane">
+        <div class="shadow shadow-top"></div>
+        <div class="nav-wrap">{menu}</div>
+        <div class="shadow shadow-bottom"></div>
+      </div>
+      <div class="social">{social}</div>
+    </div>
+
+  </div>
+  <!-- JavaScript -->
+  <script type="text/javascript" src="/files/theme/plugins.js"></script>
+  <script src="/files/theme/jquery.trend.js"></script>
+  <script src="/files/theme/jquery.revealer.js"></script>
+  <script src="/files/theme/flickity.pkgd.min.js"></script>
+  <script type="text/javascript" src="/files/theme/custom.js"></script>
+  <script type="text/javascript" src="/files/theme/mobile.js"></script>
+
+</body>
+</html>
